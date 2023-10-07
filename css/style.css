@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+/* Roboto Mono */
+
+body{
+    margin: 0;
+    padding: 0;
+
+    background-image: url("/media/images/arcadeCarpetBG.png");
+}
+
+.wrapper{
+    border: 5px red solid;
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.header{
+    color: white;
+    font-family: Roboto Mono;
+    background-color: black;
+
+    text-align: center;
+}
+
+.header h1{
+    font-size: xxx-large;
+}
+
+.sectionOne{
+    display: flex;
+    flex-direction: row;
+    background-color: aliceblue;
+}
+
+.sideNav{
+    background-color: aquamarine;
+    padding: 1%;
+}
+
+.sideNav li, ul{
+    margin: 0;
+    padding: 0;
+
+    width: 25%;
+    list-style-type: none;
+}
+
+.aboutMe{
+
+}
+
+.welcome{
+    width: 100%;
+}
+
+.welcome-container{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.sectionTwo{
+    display: flex;
+    flex-direction: row;
+}
+
+.sideBar{
+    display: flex;
+    flex-direction: column;
+}
