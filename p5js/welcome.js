@@ -39,4 +39,3 @@ function draw() {
   }
   scrollMessage(isChanged)
 }
-

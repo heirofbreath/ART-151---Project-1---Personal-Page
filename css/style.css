@@ -40,22 +40,37 @@ body{
 .sideNav{
     background-color: aquamarine;
     padding: 1%;
+    width: 15%;
 }
 
 .sideNav li, ul{
     margin: 0;
     padding: 0;
-
-    width: 25%;
     list-style-type: none;
+
+    font-size: 25px;
 }
 
 .aboutMe{
+    display: flex;
+    background-color: white;
+}
 
+.aboutMeContent{
+    width: auto;
+    margin: 1%;
+
+    text-align: center;
+}
+
+.aboutMeImage{
+    width: auto;
+    margin: 1%;
 }
 
 .welcome{
     width: 100%;
+    text-align: center;
 }
 
 .welcome-container{
