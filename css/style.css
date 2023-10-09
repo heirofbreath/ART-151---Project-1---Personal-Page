@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
 /* Roboto Mono */
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+/* VT323 */
+
+@font-face
+{
+    font-family: "Courier New Bold";
+    font-weight: normal;
+    font-style: normal;
+    src: url("/media/fonts/courbd.ttf");
+}
 
 body{
     margin: 0;
@@ -9,7 +19,6 @@ body{
 }
 
 .wrapper{
-    border: 5px red solid;
     display: flex;
     flex-direction: column;
     width: 75%;
@@ -31,16 +40,26 @@ body{
     font-size: xxx-large;
 }
 
+#welcome-container{
+    margin: 0px;
+    padding: 0px;
+}
+
 .sectionOne{
     display: flex;
     flex-direction: row;
-    background-color: aliceblue;
+
+    background-image: url("https://sadhost.neocities.org/images/tiles/greengrid.jpg");
 }
 
 .sideNav{
-    background-color: aquamarine;
+    border: 5px #4AF626 solid;
+    background-color: black;
     padding: 1%;
     width: 15%;
+
+    font-family: VT323;
+    color: #4AF626;
 }
 
 .sideNav li, ul{
@@ -51,21 +70,41 @@ body{
     font-size: 25px;
 }
 
+.sideNav a{
+    text-decoration: none;
+    color: #4AF626;
+}
+
+.sideNav a:hover{
+    color: #36b51b;
+}
+
 .aboutMe{
     display: flex;
-    background-color: white;
+    background-image: url("https://sadhost.neocities.org/images/tiles/greengrid.jpg");
+    
+    font-family: Courier New Bold;
+    color: white;
 }
 
 .aboutMeContent{
-    width: auto;
+    width: 50%;
     margin: 1%;
-
     text-align: center;
 }
 
 .aboutMeImage{
     width: auto;
     margin: 1%;
+    margin-top: auto;
+    margin-bottom: auto;
+    
+    text-align: center;
+    object-fit: contain;
+}
+
+.aboutMeImage img{
+    width: 75%
 }
 
 .welcome{
@@ -82,6 +121,72 @@ body{
 .sectionTwo{
     display: flex;
     flex-direction: row;
+    margin-top: 1%;
+}
+
+.chatbox iframe{
+    height: 100%;
+}
+
+.computer{
+    width: 100%;
+    background-image: url("https://sadhost.neocities.org/images/tiles/num.gif");
+}
+
+.computerContent{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+
+    background-color: rgb(128, 128, 128);
+    background-color: rgb(128, 128, 128, .5);
+
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.compContainer{
+    display: flex;
+    opacity: 1;
+    padding-bottom: 1%;
+}
+
+.compLeft, .compRight{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.compLeft img, .compRight img{
+    width: 25%;
+}
+
+.s2RightBar{
+    display: flex;
+    flex-direction: column;
+
+    margin: 0px;
+    padding: 0px;
+    width: 25%;
+}
+
+.s2Blinkees{
+    margin: 0px;
+    margin-top: 2%;
+    padding: 0px;
+
+    text-align: center;
+}
+
+.s2Blinkees img{
+    width: 88px;
+    height: 31px;
+
+    margin: 0px;
+    padding: 0px;
 }
 
 .sideBar{

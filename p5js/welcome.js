@@ -28,6 +28,10 @@ function scrollMessage(state){
 }
 
 function draw() {
+  var canvasDiv = document.getElementById('welcome-container');
+  var width = canvasDiv.offsetWidth;
+  resizeCanvas(width,50);
+
   background("blue");
   fill("white");
 
