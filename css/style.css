@@ -124,8 +124,12 @@ body{
     margin-top: 1%;
 }
 
+.chatbox {
+    margin-right: 1%;
+}
+
 .chatbox iframe{
-    height: 100%;
+    height: 75%;
 }
 
 .computer{
