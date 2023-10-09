@@ -15,7 +15,7 @@ body{
     margin: 0;
     padding: 0;
 
-    background-image: url("/media/images/arcadeCarpetBG.png");
+    background-image: url("../media/images/arcadeCarpetBG.png");
 }
 
 .wrapper{
