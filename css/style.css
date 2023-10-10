@@ -11,13 +11,16 @@
     src: url("/media/fonts/courbd.ttf");
 }
 
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+
 body{
     margin: 0;
     padding: 0;
 
     margin-bottom: 2%;
     background-image: url("https://sadhost.neocities.org/images/tiles/num.gif");
-    font-family: Courier New Bold;
 }
 
 .wrapper{
