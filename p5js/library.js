@@ -55,4 +55,23 @@ function draw(){
             link.position(windowWidth/2 - 100, 25);
         }
     }
+
+    if(mouseX >= 0 && mouseX <= 170){
+        if(mouseY >= 470 && mouseY <= 720){
+            push();
+                noStroke();
+                fill(0,0,0,0)
+                rect(0, 470, 170, 250);
+            pop();
+        }
+    }
+
+}
+
+function mouseClicked(){
+    if(mouseX >= 0 && mouseX <= 170){
+        if(mouseY >= 470 && mouseY <= 720){
+            window.open("https://www.youtube.com/watch?v=L_LUpnjgPso");
+        }
+    }
 }
