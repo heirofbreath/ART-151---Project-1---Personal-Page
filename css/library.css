@@ -1,0 +1,9 @@
+body{
+    background-image: url("https://sadhost.neocities.org/images/tiles/nurple-static-bright.gif");
+
+    margin: 5%;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
