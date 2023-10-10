@@ -1,9 +1,9 @@
 function preload(){
-    bg = loadImage("/media/images/whiteHouseLibrary.png");
-    blackSquare = loadImage("/media/images/malevichBlackSquare.jpg");
-    lumberjack = loadImage("/media/images/malevichLumberjack.jpg");
-    comp8 = loadImage("/media/images/kandinskyComp8.jpg");
-    kanCircles = loadImage("/media/images/kandinskyCircles.png");
+    bg = loadImage("../media/images/whiteHouseLibrary.png");
+    blackSquare = loadImage("../media/images/malevichBlackSquare.jpg");
+    lumberjack = loadImage("../media/images/malevichLumberjack.jpg");
+    comp8 = loadImage("../media/images/kandinskyComp8.jpg");
+    kanCircles = loadImage("../media/images/kandinskyCircles.png");
 
     paintings = [blackSquare, lumberjack, comp8, kanCircles];
 }
