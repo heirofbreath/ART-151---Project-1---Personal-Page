@@ -51,7 +51,7 @@ function draw(){
 
     if(mouseX >= 745 && mouseX <= 845){
         if(mouseY >= 190 && mouseY <= 400){
-            let link = createA("/index.html", "Homepage");
+            let link = createA("../index.html", "Homepage");
             link.position(windowWidth/2 - 100, 25);
         }
     }
