@@ -35,17 +35,6 @@ function draw(){
             pop();
         }
     }
-
-    // Portrait on Left
-        // push();
-        //     beginShape();
-        //         vertex(5,22);
-        //         vertex(131,96);
-        //         vertex(133,280);
-        //         vertex(8,255);
-        //     endShape(CLOSE);
-        // pop();
-
     // Detects if mouse is over leftmost front facing bookshelf
 
     if(mouseX >= 305 && mouseX <= 400){
@@ -53,19 +42,17 @@ function draw(){
             rect(450, 174, 200, 220);
             text("As of recent, I've been getting back into writing and reading again. My most recent, personal project has to be the SCP article I'm writing, although I'm considering starting it over completely.\n\nWhat about you? If you're reading anything good, or planning on writing something, leave it in the guest book."
             , 460, 194, 180, 200);
-            let link = createA("https://milknolactose.123guestbook.com/", "Guestbook");
-            link.position(0, 25);
+            let link = createA("https://milknolactose.123guestbook.com/", "Guest Book");
+            link.position(windowWidth/2 + 100, 25);
         }   
     }
-    
 
-    // Bookshelf
-    // push();
-    //     beginShape();
-    //         vertex(305,174)
-    //         vertex(400,174);
-    //         vertex(400,435);
-    //         vertex(305,435);
-    //     endShape(CLOSE);
-    // pop();
+    // Detects if mouse is over mirror
+
+    if(mouseX >= 745 && mouseX <= 845){
+        if(mouseY >= 190 && mouseY <= 400){
+            let link = createA("/index.html", "Homepage");
+            link.position(windowWidth/2 - 100, 25);
+        }
+    }
 }

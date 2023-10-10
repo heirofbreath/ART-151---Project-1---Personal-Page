@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+/* VT323 */
+
+*{
+    font-family: VT323;
+    font-size: larger;
+    color: gold;
+}
+
 body{
     background-image: url("https://sadhost.neocities.org/images/tiles/nurple-static-bright.gif");
 
@@ -6,4 +15,11 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+a{
+    text-decoration: none;
+    background-color: white;
+    padding: 5px;
+    border: 5px gold solid;
 }
