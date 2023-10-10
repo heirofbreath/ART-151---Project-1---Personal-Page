@@ -15,7 +15,8 @@ body{
     margin: 0;
     padding: 0;
 
-    background-image: url("../media/images/arcadeCarpetBG.png");
+    margin-bottom: 2%;
+    background-image: url("https://sadhost.neocities.org/images/tiles/num.gif");
 }
 
 .wrapper{
@@ -31,7 +32,6 @@ body{
 .header{
     color: white;
     font-family: Roboto Mono;
-    background-color: black;
 
     text-align: center;
 }
@@ -48,8 +48,6 @@ body{
 .sectionOne{
     display: flex;
     flex-direction: row;
-
-    background-image: url("https://sadhost.neocities.org/images/tiles/greengrid.jpg");
 }
 
 .sideNav{
@@ -79,21 +77,20 @@ body{
     color: #36b51b;
 }
 
-.aboutMe{
+.aboutSite{
     display: flex;
-    background-image: url("https://sadhost.neocities.org/images/tiles/greengrid.jpg");
     
     font-family: Courier New Bold;
     color: white;
 }
 
-.aboutMeContent{
+.aboutSiteContent{
     width: 50%;
     margin: 1%;
     text-align: center;
 }
 
-.aboutMeImage{
+.aboutSiteImage{
     width: auto;
     margin: 1%;
     margin-top: auto;
@@ -103,7 +100,7 @@ body{
     object-fit: contain;
 }
 
-.aboutMeImage img{
+.aboutSiteImage img{
     width: 75%
 }
 
@@ -126,18 +123,20 @@ body{
 
 .chatbox {
     margin-right: 1%;
+
+    justify-content: center;
+}
+
+.chatbox table{
+    margin: auto;
+    padding: 0px;
 }
 
 .chatbox iframe{
     height: 75%;
 }
 
-.computer{
-    width: 100%;
-    background-image: url("https://sadhost.neocities.org/images/tiles/num.gif");
-}
-
-.computerContent{
+.aboutMe{
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -146,22 +145,17 @@ body{
     padding-top: 1%;
     padding-bottom: 1%;
 
-    background-color: rgb(128, 128, 128);
-    background-color: rgb(128, 128, 128, .5);
+    color: white;
+
+    /* background-color: rgb(128, 128, 128);
+    background-color: rgb(128, 128, 128, .5); */
 
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
 }
 
-.compContainer{
-    display: flex;
-    opacity: 1;
-    padding-bottom: 1%;
-}
-
-.compLeft, .compRight{
-    margin-left: auto;
-    margin-right: auto;
+.aboutMe br{
+    margin: 5px;
 }
 
 .compLeft img, .compRight img{
@@ -196,4 +190,8 @@ body{
 .sideBar{
     display: flex;
     flex-direction: column;
+}
+
+.sectionThree{
+    margin-top: 2%;
 }
